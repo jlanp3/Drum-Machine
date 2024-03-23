@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.pad .drum-pad {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  box-shadow: black 3px 3px 5px;
+  cursor: pointer;
+}
+.container .display {
+  background-color: grey;
+}
